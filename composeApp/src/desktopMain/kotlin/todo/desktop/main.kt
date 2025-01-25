@@ -26,9 +26,9 @@ fun main() = application {
     })
 
     val options = FirebaseOptions(
-        projectId = "kotlin-to-do-5afeb",
-        applicationId = "1:512577602896:web:d3ebae6c8bb55e59839855",
-        apiKey = "AIzaSyAp-XE1h9EWiM1pJ3fNaitPb3xwdB1QTdw"
+        projectId = "YOUR FIREBASE PROJECT ID GOES HERE",
+        applicationId = "YOUR FIREBASE APPLICATION ID GOES HERE",
+        apiKey = "YOUR FIREBASE API KEY GOES HERE"
     )
     Firebase.initialize(Application(), options)
 
@@ -40,13 +40,3 @@ fun main() = application {
     }
 }
 
-// Change the window size and position
-//fun main() = application {
-//    val state = rememberWindowState(
-//        size = DpSize(400.dp, 250.dp),
-//        position = WindowPosition(300.dp, 300.dp)
-//    )
-//    Window(title = "Local Time App", onCloseRequest = ::exitApplication, state = state) {
-//        App()
-//    }
-//}
